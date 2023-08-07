@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+.videoContainer {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.visit {
+  color: white;
+  position: relative;
+  left: 300px;
+  top: 100px;
+  z-index: 10;
+}
+#headerdescription {
+  display: inline-block;
+  font-size: 40px;
+  background-color: #68eef578;
+}
+
+#HeaderHeading {
+  text-align: center;
+  width: 650px;
+  font-size: 80px !important ;
+  background-color: #68eef578;
+}
+.foodImg,
+.roomImg,
+.poolImg {
+  text-align: center;
+}
+.aboutHotal {
+  display: flex;
+  margin: 50px 150px 0 150px;
+}
+.hotalfacility {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 50%;
+  border-color: #bff0cf;
+}
+.foodImgAndContentContainer {
+  margin: 0 90px 0 0;
+  width: 33.33%;
+}
+.roomImgAndContentContainer {
+  margin: 0 90px 0 0;
+  width: 33.33%;
+}
+.poolImgAndContentContainer {
+  width: 33.33%;
+}
+.containtContainer > h2 {
+  text-align: center;
+}
+.containtContainerHeading{
+  font-size: 50px;
+}
+.containtContainerDescription {
+  font-size: 40px;
+  text-align: justify;
+}
+
+/* Contact */
+
+.hotalContact {
+  background-color: #e4dedb;
+}
+.pineapple {
+  width: 100%;
+}
+.bottomImgContainer {
+  position: relative;
+  top: 100px;
+}
+.address{
+  position: relative;
+  top: 50px;
+  left: 80em;
+  background-color: #e4dedb;
+  color: white;
+  width: 20%;
+}
+.bottomh1 {
+  font-size: 100px;
+  text-align: center;
+}
+.bottomp {
+  text-align: right;
+  color: black;
+}
+
+main {
+  height: 0;
+
+}
